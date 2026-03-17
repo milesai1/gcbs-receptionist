@@ -12,16 +12,3 @@
     "twilio": "^4.0.0"
   }
 }
-```
-
----
-
-## File 2 — `.env`
-
-Create this manually in your project folder. This holds all your secret keys — **never share this file or push it to GitHub.**
-```
-TWILIO_ACCOUNT_SID=AC33a31e31f634f567f1e890964ae49180
-TWILIO_AUTH_TOKEN=fa727ebff55a3e3f046f1d78b4165655
-TWILIO_PHONE_NUMBER=+61728016134
-ADMIN_PHONE_NUMBER=+0755744788
-PORT=3000
