@@ -12,6 +12,10 @@ app.get("/", (req, res) => {
   res.status(200).send("Receptionist running");
 });
 
+app.get("/voice", (req, res) => {
+  res.status(200).send("Voice route is live");
+});
+
 app.post("/voice", (req, res) => {
   const twiml = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
